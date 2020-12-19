@@ -1,0 +1,56 @@
+/* CONFIGURACIÓN GENERAL */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* HEADER */
+    header{
+        background-color: black;
+        padding: 18px 10px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .material-icons{
+        color: #94C11F;
+    }
+
+/* BODY */
+    /* CAROUSEL */
+    .carousel{
+        margin-top: 1.2em;
+        height: 13.1em;
+    }
+
+    .img-carousel{
+        height: 13.1em;
+    }
+
+    #test{
+        background-color: aqua;
+        height: 43em;
+    }
+
+    /* FRASE INICIAL */
+    #h1-inicial{
+        margin: 1em 0.7em 0.9em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.85em;
+        text-align: center;
+        color: #171717;
+    }
+
+    /* CARRUSEL DE MENU */
+    #carousel-menu{
+        border: solid 0.1em;
+        height: 22.5em;
+    }
+
+    .img-menu{
+        width: 5em;
+        height: 22em;
+    }
+/* FOOTER */
