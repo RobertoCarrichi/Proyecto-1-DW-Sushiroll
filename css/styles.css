@@ -29,11 +29,6 @@
         height: 13.1em;
     }
 
-    #test{
-        background-color: aqua;
-        height: 43em;
-    }
-
     /* FRASE INICIAL */
     #h1-inicial-1{
         margin: 1em 0.7em 0.9em;
@@ -56,9 +51,69 @@
     
     /* SEGUNDA FRASE */
     #h1-inicial-2{
-        margin: 1em 0.5em 0.9em;
+        margin: 1em 0.1em 0.9em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.6em;
+        text-align: center;
+        color: #171717;
+    }
+
+    /* PROMOCIONES */
+    .promociones{
+        display: flex;
+        height: 21.3em;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* ESPECIALIDADES */
+    .fondo-movil1{
+        background-image: url(http://www.sushiroll.com.mx/media/1184/fondo_especialidades2.png);
+        height: 10.9em;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 1.8em;
+        text-align: center;
+        color: #171717;
+        margin-top: 1.5em;
+        padding-top: 3.1em;
+
+        animation: fondo 13s infinite linear;
+    }
+    .fondo-movil2{
+        background-image: url(http://www.sushiroll.com.mx/media/1184/fondo_especialidades2.png);
+        height: 15.3em;
+        animation: fondo 13s infinite linear;
+    }
+
+    @keyframes fondo{
+        100%{
+            background-position-x: 1000px;
+        }
+    }
+
+    /* TERCER FRASE */
+    #h1-inicial-3{
+        margin: 1em 0.1em 2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.6em;
+        text-align: center;
+        color: #171717;
+    }
+
+    /* SERVICIO A DOMICILIO */
+    .servicio-domicilio{
+        margin-top: 5em;
+    }
+    #img-domicilio{
+        width: 100%;
+        
+    }
+
+    /* SERVICIO A DOMICILIO */
+    #h1-inicial-4{
+        margin: 1em 0.1em 2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.6em;
         text-align: center;
         color: #171717;
     }
