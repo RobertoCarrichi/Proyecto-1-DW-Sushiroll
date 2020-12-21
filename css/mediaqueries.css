@@ -3,9 +3,6 @@ No media query for `xs` since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    /* *{
-        background-color: violet;
-    } */ 
     /* BODY */
         /* CARRUSEL PRINCIPAL */
         .carousel{
@@ -56,9 +53,6 @@ No media query for `xs` since this is the default in Bootstrap*/
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-	/* *{
-        background-color: aqua;
-    } */
     /* CAROUSEL */
     .carousel{
         margin-top: 0;
@@ -194,9 +188,6 @@ No media query for `xs` since this is the default in Bootstrap*/
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-	/* *{
-        background-color: blueviolet;
-    } */
     /* HEADER */
     #enlaces{
         position: absolute;
@@ -206,7 +197,6 @@ No media query for `xs` since this is the default in Bootstrap*/
     #enlaces > li{
         margin: 0 1em 0;
     }
-
 
     /* CAROUSEL */
     .carousel{
@@ -258,9 +248,6 @@ No media query for `xs` since this is the default in Bootstrap*/
 
  /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-	/* *{
-        background-color: turquoise;
-    } */
     /* CAROUSEL */
     .carousel{
         margin-top: 0;
@@ -351,5 +338,4 @@ No media query for `xs` since this is the default in Bootstrap*/
     #contenedor-fb{
         margin-right: 10em;
     }
-
 }
