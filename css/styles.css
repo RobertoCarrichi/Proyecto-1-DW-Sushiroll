@@ -35,7 +35,7 @@
     }
 
     /* FRASE INICIAL */
-    #h1-inicial{
+    #h1-inicial-1{
         margin: 1em 0.7em 0.9em;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 1.85em;
@@ -45,12 +45,21 @@
 
     /* CARRUSEL DE MENU */
     #carousel-menu{
-        border: solid 0.1em;
         height: 22.5em;
+        padding: 0 3em 0;
     }
 
     .img-menu{
-        width: 25%;
         height: 22em;
+        cursor: pointer;
+    }
+    
+    /* SEGUNDA FRASE */
+    #h1-inicial-2{
+        margin: 1em 0.5em 0.9em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.8em;
+        text-align: center;
+        color: #171717;
     }
 /* FOOTER */
