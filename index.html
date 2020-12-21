@@ -1,195 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- STYLES -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
-    
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- MATERIAL ICONS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
-    <!-- ICON -->
-    <title>Sushiroll</title>
-    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- STYLES -->
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<!-- MATERIAL ICONS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+	
+	<!-- ICON -->
+	<title>Sushiroll</title>
 </head>
 <body>
-    <!-- HEADER -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light" id="header-nav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <!-- <span class="navbar-toggler-icon" id="header-nav-button-span"></span> -->
-              <i class="material-icons md-36">menu</i>
-            </button>
-            <div>
-                <img src="http://www.sushiroll.com.mx/media/1044/logo_sushiroll_2301.png" alt="">
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
-
-    <!-- MAIN -->
-    <main>
-      <!-- CAROUSEL -->
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1510/sushiroll_sushi_nights_contingenciajpg.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1512/platillos_temporada_sushiroll.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1511/sl_banner.png" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1509/portal.jpg" alt="Third slide">
-          </div>
-        </div>
-        <!-- Controles carrusel principal -->
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      
-      <!-- FRASE INICIAL -->
-      <h1 id="h1-inicial">EN NUESTRO MENÚ PODRÁS ENCONTRAR TU PLATILLO FAVORITO</h1>
-      
-      <!-- SEGUNDO CAROUSEL -->
-      <div id="carousel-menu" class="carousel slide" data-ride="carousel">
-        <!-- Contenedor de las imágenes -->
-        <div class="carousel-inner" id="contenedor-menu">
-
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-3">
-                <img class="img-menu" src="http://www.sushiroll.com.mx/media/1005/menu_entradas-300x500.jpg" alt="First slide">
-              </div>
-              <div class="col-md-3">
-                <img class="img-menu" src="http://www.sushiroll.com.mx/media/1003/menu_brochetasjpg-300x500.png" alt="Second slide">
-              </div>
-              <div class="col-md-3">
-                <img class="img-menu" src="http://www.sushiroll.com.mx/media/1019/menu_sopas-300x500.jpg" alt="Third slide">
-              </div>
-              <div class="col-md-3">
-                <img class="img-menu" src="http://www.sushiroll.com.mx/media/1020/menu_ensaladas-300x500.jpg" alt="Third slide">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1200/unknown-9.jpeg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1021/menu_noodles-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1118/menu_rollosespeciales-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1117/menu_rollosclasicos-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1123/menu_temaki-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1116/menu_nigiri1-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1197/sb.png" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1119/menu_sashimi1-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1124/menu_tempura-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1121/menu_takos-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1115/menu_especialidades1-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1125/menu_teppanyakimixto_300x500-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1126/menu_teriyaki-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1122/menu_tapioca-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1120/menu_sushikids-300x500.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1408/ramen.png" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 img-menu" src="http://www.sushiroll.com.mx/media/1406/chirashi.png" alt="Third slide">
-          </div>
-        </div>
-        <!-- Controles segundo carrusel -->
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-      <!-- FONDO MOVIBLE -->
-      <div>
-        <img src="http://www.sushiroll.com.mx/media/1184/fondo_especialidades2.png" alt="">
-        <img src="http://www.sushiroll.com.mx/media/1184/fondo_especialidades2.png" alt="">
-      </div>
-    </main>
-
-
-    <div id="test">ajflasjd</div>
-
-
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- HEADER -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light" id="header-nav">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<!-- <span class="navbar-toggler-icon" id="header-nav-button-span"></span> -->
+				<i class="material-icons md-36">menu</i>
+			</button>
+			<div>
+				<img src="http://www.sushiroll.com.mx/media/1044/logo_sushiroll_2301.png" alt="">
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown link
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- MAIN -->
+	<main>
+		<!-- CAROUSEL -->
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1510/sushiroll_sushi_nights_contingenciajpg.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1512/platillos_temporada_sushiroll.jpg" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1511/sl_banner.png" alt="Third slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100 img-carousel" src="http://www.sushiroll.com.mx/media/1509/portal.jpg" alt="Third slide">
+				</div>
+			</div>
+			<!-- Controles carrusel principal -->
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		
+		<!-- FRASE INICIAL -->
+		<h1 id="h1-inicial">EN NUESTRO MENÚ PODRÁS ENCONTRAR TU PLATILLO FAVORITO</h1>
+		
+		<!-- SEGUNDO CAROUSEL -->
+		<div id="carousel-menu" class="carousel slide" data-ride="carousel">
+			<!-- Contenedor de las imágenes -->
+			<div class="carousel-inner" id="contenedor-menu">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1005/menu_entradas-300x500.jpg" alt="First slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1003/menu_brochetasjpg-300x500.png" alt="Second slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1019/menu_sopas-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1020/menu_ensaladas-300x500.jpg" alt="Third slide">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1200/unknown-9.jpeg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1021/menu_noodles-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1118/menu_rollosespeciales-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1117/menu_rollosclasicos-300x500.jpg" alt="Third slide">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1123/menu_temaki-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1116/menu_nigiri1-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1197/sb.png" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1119/menu_sashimi1-300x500.jpg" alt="Third slide">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1124/menu_tempura-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1121/menu_takos-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1115/menu_especialidades1-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1125/menu_teppanyakimixto_300x500-300x500.jpg" alt="Third slide">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1126/menu_teriyaki-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1122/menu_tapioca-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1120/menu_sushikids-300x500.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-3">
+							<img class="img-menu" src="http://www.sushiroll.com.mx/media/1408/ramen.png" alt="Third slide">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img id="img-final-menu" src="http://www.sushiroll.com.mx/media/1406/chirashi.png" alt="Third slide">
+				</div>
+				<div class="carousel-item">
+				</div>
+			</div>
+			<!-- Controles segundo carrusel -->
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		
+		<!-- FONDO MOVIBLE -->
+		<div>
+			<img src="http://www.sushiroll.com.mx/media/1184/fondo_especialidades2.png" alt="">
+			<img src="http://www.sushiroll.com.mx/media/1184/fondo_especialidades2.png" alt="">
+		</div>
+	</main>
+	
+	<div id="test">ajflasjd</div>
+	
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!-- PRUEBA DE COMMIT -->
