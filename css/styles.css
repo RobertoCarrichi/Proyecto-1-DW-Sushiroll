@@ -111,10 +111,32 @@
 
     /* SERVICIO A DOMICILIO */
     #h1-inicial-4{
-        margin: 1em 0.1em 2em;
+        margin: 3em 0.1em 1.3em;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 1.6em;
         text-align: center;
         color: #171717;
     }
+
+    /* REDES SOCIALES */
+    #contenedor-fb{
+        display: flex;
+        justify-content: center;
+    }
+
+    #contenedor-tw{
+        display: flex;
+        justify-content: center;
+    }
+
 /* FOOTER */
+#footer{
+    background-color: black;
+    height: 10.4em;
+    color: #949494;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Martel Sans', sans-serif;
+}
