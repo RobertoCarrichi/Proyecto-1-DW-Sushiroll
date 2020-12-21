@@ -2,7 +2,10 @@
 No media query for `xs` since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
+    /* *{
+        background-color: violet;
+    } */ 
     /* BODY */
         /* CARRUSEL PRINCIPAL */
         .carousel{
@@ -116,14 +119,6 @@ No media query for `xs` since this is the default in Bootstrap*/
         padding: 0 2em 0;
     }
 
-    .row-especialidades{
-        border: solid red;
-    }
-    
-    .div-especialidad{
-        border: solid red;
-    }
-
     .contenedor-especialidad{
         width: 6em;
     }
@@ -197,6 +192,17 @@ No media query for `xs` since this is the default in Bootstrap*/
 	/* *{
         background-color: blueviolet;
     } */
+    /* HEADER */
+    #enlaces{
+        position: absolute;
+        right: 0;
+        margin-right: 2em;
+    }
+    #enlaces > li{
+        margin: 0 1em 0;
+    }
+
+
     /* CAROUSEL */
     .carousel{
         margin-top: 0;
@@ -247,9 +253,9 @@ No media query for `xs` since this is the default in Bootstrap*/
 
  /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-	/* *{
+	*{
         background-color: turquoise;
-    } */
+    }
     /* CAROUSEL */
     .carousel{
         margin-top: 0;
