@@ -6,19 +6,24 @@ No media query for `xs` since this is the default in Bootstrap*/
     /* BODY */
         /* CARRUSEL PRINCIPAL */
         .carousel{
-            margin-top: 1.2em;
+            margin-top: 1.8em;
             height: 16.8em;
         }
     
         .img-carousel{
-            height: 16.8em;
+            height: 17.7em;
         }
 
+        /* FRASE INICIAL */
+        #h1-inicial-1{
+            margin: 1.5em 0.7em 0.9em;
+            font-size: 1.9em;
+        }
         /* SEGUNDA FRASE */
         #h1-inicial-2{
             margin: 1em 0.1em 0;
             font-family: 'Open Sans Condensed', sans-serif;
-            font-size: 1.7em;
+            font-size: 1.86em;
             text-align: center;
             color: #171717;
         }
@@ -33,32 +38,45 @@ No media query for `xs` since this is the default in Bootstrap*/
             width: 10em;
             height: 5.7em;
         }
+
+        /* APIS DE REDES SOCIALES */
+        #contenedor-redes-sociales{
+            margin-bottom: 5em;
+        }
+
+        /* FOOTER */
+        #footer{
+            height: 8em;
+            font-size: 1em;
+        }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-	*{
+	/* *{
         background-color: aqua;
-    }
+    } */
     /* CAROUSEL */
     .carousel{
+        margin-top: 0;
         height: 21.4em;
+        padding: 0 3em 0;
     }
 
     .img-carousel{
-        height: 21.4em;
+        height: 22.7em;
     }
     
     /* FRASE INICIAL */
     #h1-inicial-1{
-        margin: 2.4em 0.7em 0.9em;
+        margin: 2.9em 0.7em 0.8em;
         padding: 0 1.5em 0;
-        font-size: 2.3em;
+        font-size: 2.4em;
     }
 
     /* SEGUNDA FRASE */
     #h1-inicial-2{
-        margin: 3.4em 0.1em 0.15em;
+        margin: 3.4em 0.1em 0.3em;
         font-size: 2.3em;
     }
 
@@ -67,6 +85,7 @@ No media query for `xs` since this is the default in Bootstrap*/
         display: flex;
         justify-content: center;
     }
+
     .promociones{
         display: flex;
         flex-direction: column;
@@ -77,24 +96,36 @@ No media query for `xs` since this is the default in Bootstrap*/
     }
 
     .promocion-img{
-        width: 14.8em;
+        width: 16em;
     }
 
     /* ESPECIALIDADES */
     .fondo-movil1{
         height: 7.8em;
         font-size: 2.5em;
-        margin-top: 0.1em;
-        padding-top: 2.4em;
+        margin-top: 0.4em;
+        padding-top: 6em;
+    }
+
+    .fondo-movil2{
+        height: 14em;
     }
 
     #carousel-especialidades{
         margin-top: 1.1em;
+        padding: 0 2em 0;
+    }
+
+    .row-especialidades{
+        border: solid red;
+    }
+    
+    .div-especialidad{
+        border: solid red;
     }
 
     .contenedor-especialidad{
         width: 6em;
-        height: 3.5em;
     }
 
     .img-especialidad{
@@ -156,21 +187,158 @@ No media query for `xs` since this is the default in Bootstrap*/
     }
 
     #footer{
-        height: 10.7em;
+        height: 8em;
     }
 
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-	*{
+	/* *{
         background-color: blueviolet;
-	}
+    } */
+    /* CAROUSEL */
+    .carousel{
+        margin-top: 0;
+        height: 25.1em;
+        padding: 0 3.4em 0;
+    }
+
+    .img-carousel{
+        height: 26.1em;
+    }
+
+    /* SEGUNDA FRASE */
+    #h1-inicial-2{
+        margin: 3.4em 0.1em 0.7em;
+        font-size: 2.4em;
+    }
+
+    /* PROMOCIONES */
+    .promociones{
+        height: 17em;
+        width: 32%;
+    }
+
+    .promocion-img{
+        width: 18.6em;
+    }
+
+    /* TERCER FRASE */
+    #h1-inicial-3{
+        margin: 2.5em 0.1em 2.1em;
+        font-size: 2.3em;
+    }
+
+    /* NUEVOS */
+    .nuevo{
+        width: 19em;
+    }
+
+    /* REDES SOCIALES */
+    #contenedor-redes-sociales{
+        display: flex;
+        padding: 0 4em 0;
+    }
+    #contenedor-fb{
+        margin-right: 5.5em;
+    }
 }
 
  /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-	*{
+	/* *{
         background-color: turquoise;
-	}
+    } */
+    /* CAROUSEL */
+    .carousel{
+        margin-top: 0;
+        height: 31em;
+        padding: 0 6.2em 0;
+    }
+
+    .img-carousel{
+        height: 31em;
+    }
+
+    /* FRASE INICIAL */
+    #h1-inicial-1{
+        margin: 2.3em 0.7em 0.5em;
+        padding: 0 1.5em 0;
+        font-size: 2.4em;
+    }
+
+    /* CARRUSEL DE MENU */
+    #carousel-menu{
+        height: 22.5em;
+        padding: 0 10.2em 0;
+    }
+
+    .img-menu{
+        height: 22em;
+        cursor: pointer;
+    }
+
+    /* SEGUNDA FRASE */
+    #h1-inicial-2{
+        margin: 3.4em 0.1em 1em;
+        font-size: 2.4em;
+    }
+
+    /* PROMOCIONES */
+    #contenedor-promociones{
+        padding: 0 3.5em 0;
+    }
+
+    .promociones{
+        height: 20em;
+        width: 32%;
+    }
+
+    .promocion-img{
+        width: 20em;
+    }
+
+    /* ESPECIALIDADES */
+    .fondo-movil1{
+        height: 7.3em;
+        font-size: 2.5em;
+        margin-top: 0.4em;
+        padding-top: 7.5em;
+    }
+
+    .fondo-movil2{
+        height: 14em;
+    }
+
+    #carousel-especialidades{
+        margin-top: 1.2em;
+        width: 100%;
+    }
+
+    .img-especialidad{
+        width: 10em;
+        height: 5.3em;
+    }
+
+    /* TERCER FRASE */
+    #h1-inicial-3{
+        margin: 2.5em 0.1em 2.1em;
+        font-size: 2.3em;
+    }
+
+    /* NUEVOS */
+    .nuevo{
+        width: 19em;
+    }
+
+    /* REDES SOCIALES */
+    #contenedor-redes-sociales{
+        display: flex;
+        padding: 0 8em 0;
+    }
+    #contenedor-fb{
+        margin-right: 10em;
+    }
+
 }
