@@ -1,0 +1,55 @@
+/* Extra small devices (portrait phones, less than 576px
+No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    /* *{
+        background-color: violet;
+    } */
+     
+    main{
+        margin-bottom: 1em;
+    }    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	/* *{
+        background-color: aqua;
+    } */
+
+    #frase-inicial-especialidades{
+        font-size: 1.8em;
+        margin: 0.7em 0.5em 1.4em;
+    }
+    
+    main{
+        margin-bottom: 1.3em;
+    }
+    
+    .especial{
+        padding: 0 2.5em 0;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	/* *{
+        background-color: blueviolet;
+    } */
+
+    .especial{
+        padding: 0 2.9em 0;
+    }
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/* *{
+        background-color: turquoise;
+    } */
+    .especial{
+        padding: 0 5em 0;
+    }
+}

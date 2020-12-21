@@ -1,0 +1,27 @@
+/* CONFIGURACIÓN GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#frase-inicial-especialidades{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.8em;
+    margin: 1em 0.5em 2em;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.especial{
+    padding: 0 1em 0;
+}
+
+.img-especial{
+    width: 100%;
+}

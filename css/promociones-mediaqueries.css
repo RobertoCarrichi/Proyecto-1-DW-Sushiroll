@@ -1,0 +1,79 @@
+/* Extra small devices (portrait phones, less than 576px
+No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    /* *{
+        background-color: violet;
+    } */
+
+    #contenedor-principal-promociones{
+        height: 23.6em;
+        margin-bottom: 4.8em;
+    }
+    
+    .img-promocion-carrusel{
+        height: 23.6em;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    /* *{
+        background-color: aqua;
+    } */
+    /* FRASE INICIAL */
+    #frase-inicial-promociones{
+        margin: 2.1em 0.7em 1.6em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.85em;
+        text-align: center;
+        color: #171717;
+    }
+
+    /* CARRUSEL */
+    #contenedor-principal-promociones{
+        height: 29em;
+        margin-bottom: 4.8em;
+    }
+
+    .img-promocion-carrusel{
+        height: 29em;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    /* *{
+        background-color: blueviolet;
+    } */
+
+    /* FRASE INICIAL */
+    #frase-inicial-promociones{
+        margin: 2.3em 0.7em 1.6em;
+    }
+
+    /* CARRUSEL */
+    #contenedor-principal-promociones{
+        padding: 0 2.7em 0;        
+    }
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/* *{
+        background-color: turquoise;
+    } */
+    
+    /* FRASE INICIAL */
+    #frase-inicial-promociones{
+        margin: 2.3em 0.7em 1.6em;
+    }
+    
+    /* CARRUSEL */
+    #contenedor-principal-promociones{
+        padding: 0 5.5em 0;        
+    }
+
+}
