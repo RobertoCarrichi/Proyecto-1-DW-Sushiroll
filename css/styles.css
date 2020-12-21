@@ -76,8 +76,13 @@
         color: #171717;
         margin-top: 1.5em;
         padding-top: 3.1em;
-
         animation: fondo 13s infinite linear;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
     }
     .fondo-movil2{
         background-image: url(http://www.sushiroll.com.mx/media/1184/fondo_especialidades2.png);
@@ -89,6 +94,15 @@
         100%{
             background-position-x: 1000px;
         }
+    }
+
+    #carousel-especialidades{
+        margin-top: 1.7em;
+        width: 95%;
+    }
+
+    .img-especialidad{
+        width: 8em;
     }
 
     /* TERCER FRASE */
