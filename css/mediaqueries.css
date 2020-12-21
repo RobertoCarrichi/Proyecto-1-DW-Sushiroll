@@ -39,7 +39,126 @@ No media query for `xs` since this is the default in Bootstrap*/
 @media (min-width: 768px) { 
 	*{
         background-color: aqua;
-	}
+    }
+    /* CAROUSEL */
+    .carousel{
+        height: 21.4em;
+    }
+
+    .img-carousel{
+        height: 21.4em;
+    }
+    
+    /* FRASE INICIAL */
+    #h1-inicial-1{
+        margin: 2.4em 0.7em 0.9em;
+        padding: 0 1.5em 0;
+        font-size: 2.3em;
+    }
+
+    /* SEGUNDA FRASE */
+    #h1-inicial-2{
+        margin: 3.4em 0.1em 0.15em;
+        font-size: 2.3em;
+    }
+
+    /* PROMOCIONES */
+    #contenedor-promociones{
+        display: flex;
+        justify-content: center;
+    }
+    .promociones{
+        display: flex;
+        flex-direction: column;
+        height: 17em;
+        width: 32%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .promocion-img{
+        width: 14.8em;
+    }
+
+    /* ESPECIALIDADES */
+    .fondo-movil1{
+        height: 7.8em;
+        font-size: 2.5em;
+        margin-top: 0.1em;
+        padding-top: 2.4em;
+    }
+
+    #carousel-especialidades{
+        margin-top: 1.1em;
+    }
+
+    .contenedor-especialidad{
+        width: 6em;
+        height: 3.5em;
+    }
+
+    .img-especialidad{
+        width: 6em;
+        height: 3.5em;
+    }
+
+    /* TERCER FRASE */
+    #h1-inicial-3{
+        margin: 2.5em 0.1em 1.4em;
+        font-size: 2.3em;
+    }
+
+    /* NUEVOS */
+    #contenedor-nuevos{
+        display: flex;
+    }
+
+    .nuevo{
+        width: 14.6em;
+    }
+
+    /* FRASE REDES SOCIALES */
+    #h1-inicial-4{
+        margin: 2.3em 0.1em 0.9em;
+        font-size: 2.4em;
+    }
+
+    /* APIS DE REDES SOCIALES */
+    #contenedor-redes-sociales{
+        display: flex;
+        padding: 0 2em 0;
+    }
+
+    #contenedor-fb{
+        margin-right: 2em;
+    }
+
+    /* FOOTER */
+    #pre-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 202px;
+        padding: 0 4em 0;
+        background-color: #3A3A3A;
+        color: #EBEBEB;
+        font-size: 1.1em;
+    }
+    
+    .textos-pre-footer{
+        background-color: #3A3A3A;
+
+    }
+
+    .textos-pre-footer p{
+        background-color: #3A3A3A;
+    }
+
+    #footer{
+        height: 10.7em;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
