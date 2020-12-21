@@ -1,0 +1,57 @@
+/* Extra small devices (portrait phones, less than 576px
+No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    /* BODY */
+        /* CARRUSEL PRINCIPAL */
+        .carousel{
+            margin-top: 1.2em;
+            height: 16.8em;
+        }
+    
+        .img-carousel{
+            height: 16.8em;
+        }
+
+        /* SEGUNDA FRASE */
+        #h1-inicial-2{
+            margin: 1em 0.1em 0;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1.7em;
+            text-align: center;
+            color: #171717;
+        }
+
+        /* ESPECIALIDADES */
+        .fondo-movil1{
+            font-size: 1.98em;
+            margin-top: 1.5em;
+            padding-top: 2.6em;
+        }
+        .img-especialidad{
+            width: 10em;
+            height: 5.7em;
+        }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	*{
+        background-color: aqua;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	*{
+        background-color: blueviolet;
+	}
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	*{
+        background-color: turquoise;
+	}
+}
